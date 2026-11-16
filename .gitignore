@@ -1,0 +1,14 @@
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+test-results/
+playwright-report/
+.DS_Store
+Thumbs.db

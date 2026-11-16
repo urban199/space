@@ -1,0 +1,14 @@
+{
+  "name": "astra-space-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Eksplorasi ruang angkasa 3D client-only; localStorage dan WebGL 1",
+  "scripts": {
+    "test": "node --test tests/core.test.mjs",
+    "check": "node --check public/game.js && node --check public/core.mjs",
+    "build": "python3 scripts/build.py",
+    "start": "python3 server.py"
+  },
+  "engines": { "node": ">=22" }
+}
